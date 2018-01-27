@@ -1,0 +1,40 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: #aedfe5 url("../img/sky-background.png") 0 0 repeat-x;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.stage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+}
+.far-clouds {
+    background: transparent url("../img/far-clouds.png") 305px 105px repeat-x;
+}
+.near-clouds {
+    background: transparent url("../img/near-clouds.png") 305px 165px repeat-x;
+}
+.content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    position: relative;
+    z-index: 101;
+}
+
+h1 sup {
+  font-size: medium;
+}
